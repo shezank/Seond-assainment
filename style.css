@@ -120,6 +120,7 @@ header{
 }
 /* Highlights Styles End */
 
+/* Footer styles Starts */
 footer{
     align-items: center;
     text-align: center;
@@ -134,3 +135,62 @@ footer{
     transform: scale(2);
 
 }
+/* Footer styles End */
+
+
+/* MEdia Quary Styles Starts */
+
+
+/* Mobile Divice */
+
+@media only screen and (max-width: 688px) {
+    body{
+        margin: 0;
+    }
+
+    .main-head{
+        display: block;
+        padding-top: 50px;
+        padding-left: 10px;
+        font-size: 20px;
+        color: white;
+        align-items: center;
+    }
+    .head-img img{
+        height: 250px;
+        width: 300px;
+        padding: 50px 0px;
+    }
+
+    .details{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+        
+    }
+    .highlights-detailes{
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+        font-size: 16px;
+        margin: 15px;
+    }
+    .highlights-img img{
+        height: 300px;
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 0;
+
+    }
+
+    .footer-img img{
+        width: 300px;
+
+
+    }
+
+
+    
+    
+}
+
+/* MEdia Quary Styles End */
