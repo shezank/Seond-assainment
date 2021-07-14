@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+/* headers styles starts */
+header{
+    background: rgb(28, 28, 121);
+    margin: 0;
+}
+.manu{
+    position: absolute;
+    width: 123px;
+    height: 44px;
+    right: 41px;
+    top: 20px;
+
+}
+.manu a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 5px 15px;
+
+    
+}
+
+.main-head{
+    display: flex;
+    padding-top: 150px;
+    padding-left: 100px;
+    font-size: 35px;
+    color: white;
+    align-items: center;
+}
+
+.head-text a, .watch-now{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 25px;
+    color: white;
+    font-size: 16px;
+
+}
+.head-text a:hover{
+    background:linear-gradient(red, orange) ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px white;
+}
+
+.head-img img{
+    height: 450px;
+    width: 600px;
+    padding: 50px 50px;
+}
+/* headers styles End */
+
+/* Players details style starts */
+
+
+.details{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    align-items: center;
+    margin: 100px 200px;
+    margin: 10px;
+}
+
+.player-details{
+    width: 300px;
+    height: 400px;
+    box-shadow:  white;
+    background-color: white;
+    padding: 10px;
+    margin: 15px 40px;
+}
+
+.player-details:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 30px gray;
+}
+
+.player-details img{
+    height: 250px;
+    width: 300px;
+
+}
+/* Players details style End */
+
+
+
+
+/* Highlights Styles Starts */
+
+.highlights-detailes{
+    display: flex;
+    align-items: center;
+    margin: 100px 50px
+
+}
+
+.highlights-text h2{
+    font-size: 48px;
+}
+.watch-now:hover{
+    background:linear-gradient(grey, blue) ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px white;
+
+}
+
+.highlights-img img{
+    width: 567px;
+    height: 427px;
+    padding-left: 20px;
+}
+/* Highlights Styles End */
+
+footer{
+    align-items: center;
+    text-align: center;
+}
+
+.icon img{
+    height: 32px;
+    width: 32px;
+    padding: 20px;
+}
+.icon img:hover{
+    transform: scale(2);
+
+}
